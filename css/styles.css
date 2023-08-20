@@ -946,7 +946,7 @@ align-items: end;
 }
 
 .footer-form-label {
-display: flex;
+gap: 24px;
 
 }
 
@@ -1006,6 +1006,7 @@ display: flex;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.32px;
+    color: var(--white);
 }
 
 .subscribe-hdg {
