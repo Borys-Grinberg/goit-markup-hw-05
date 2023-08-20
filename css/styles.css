@@ -790,6 +790,8 @@ fill: var(--white);
     margin-bottom: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    line-height: 1.5;
+
 
    
 }
@@ -1034,7 +1036,7 @@ gap: 24px;
 
 .modal-div {
     margin-bottom: 8px;
-    
+
 }
 
 
