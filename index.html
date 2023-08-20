@@ -423,7 +423,7 @@
     </main>
 
     <footer class="footer-bg">
-        < class="container footer-flex">
+        <div class="container footer-flex">
             <div class="logo-p-footer">
                 <a class="logotype logo-bottom link" href="./index.html">Web<span
                         class="logotype-white">Studio</span></a>
@@ -475,32 +475,33 @@
             </div>
 
 
-
-            <form class="footer-form">
-                <label>
-
-                    <span class="footer-text">Subscribe</span>
-                    <span class="footer-input-field">
-                        <input class="email-subscribe-input" type="email" name="user-email" title="name@mail.com"
-                            required placeholder="E-mail" />
-                    </span>
-
-                </label>
-                <button class="footer-form-button">Subscribe
-                    <svg class="footer-plane-icon">
-                        <use href="./images/icons.svg#icon-paper-plane" width="24" height="24">
-
-                        </use>
-                    </svg>
-
-                </button>
-
-            </form>
+            <div class="footer-form-wrapper">
+                <p class="footer-form-text">Subscribe</p>
+                <form class="footer-form">
+                    <label>
 
 
+                        <span class="footer-input-field">
+                            <input class="email-subscribe-input" type="email" name="user-email" title="name@mail.com"
+                                required placeholder="E-mail" />
+                        </span>
 
+                    </label>
+                    <button class="footer-form-button">Subscribe
+                        <svg class="footer-plane-icon">
+                            <use href="./images/icons.svg#icon-paper-plane" width="24" height="24">
 
+                            </use>
+                        </svg>
+
+                    </button>
+
+                </form>
             </div>
+
+
+
+        </div>
     </footer>
     <div class="backdrop is-hidden" data-modal>
         <div class="modal">
