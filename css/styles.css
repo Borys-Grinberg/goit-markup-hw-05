@@ -815,6 +815,12 @@ fill: var(--white);
 .modal-form-fields {
     display: block;
     margin-bottom: 8px;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: var(--border-icon);
+    margin-bottom: 4px;
+    
 }
 
 .modal-form-input {
