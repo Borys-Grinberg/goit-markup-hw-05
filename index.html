@@ -476,13 +476,33 @@
                     </li>
                 </ul>
             </div>
-            <div class="footer-form">
-                <label class="footer-form-label">
-                    <input class="email-subscribe-input" type="text" placeholder="E-mail">
-                </label>
-                <button class="footer-form-button">
-                </button>
+
+
+            <div class="footer-form-wrapper">
+                <form class="footer-form">
+                    <label>
+
+                        <p class="footer-text">Subscribe</p>
+                        <span class="footer-input-field">
+                            <input class="email-subscribe-input" type="email" name="user-email" type="email"
+                                title="name@mail.com" required placeholder="E-mail" />
+                        </span>
+
+                    </label>
+                    <button class="footer-form-button">Subscribe
+                        <svg class="footer-plane-icon">
+                            <use href="./images/icons.svg#icon-paper-plane" width="24" height="24">
+
+                            </use>
+                        </svg>
+
+                    </button>
+
+                </form>
             </div>
+
+
+
         </div>
     </footer>
     <div class="backdrop is-hidden" data-modal>
@@ -527,7 +547,8 @@
                 <label class=" modal-form-fields">
                     <p class="modal-field-description-text">Email</p>
                     <span class="modal-form-input-wrapper">
-                        <input class="modal-form-input" name="user-email" type="email" title="name@mail.com" required />
+                        <input class="modal-form-input" name="user-email" type="email" title="name@mail.com" required
+                            name="user-email" type="email" title="name@mail.com" required />
                         <svg class="modal-form-icon" width="18px" height="24px">
                             <use href="./images/icons.svg#icon-email-modal">
 
@@ -541,15 +562,14 @@
                     <textarea class="modal-form-textarea modal-form-input" name="user-comment"
                         placeholder="Text input"></textarea>
                 </label>
-                <label Class="comment-checkbox-label">
-                    <input name="accept-privacy" type="checkbox" required>
-                    <p>I accept
-                        the
-                        terms and
-                        conditions of the</p>
-                    <a href="" class="privacy-policy-link">Privacy Policy</a>
+                <label class="comment-checkbox-label">
+                    <input class="checkbox-features" name="accept-privacy" type="checkbox" required>
+                    <svg class="own-checkbox" width="16px" height="16px">
+                        <use href="./images/icons.svg#icon-checkbox-click">
 
-
+                        </use>
+                    </svg>I accept the terms and conditions of the&nbsp;<a href="" class="privacy-policy-link">Privacy
+                        Policy</a>
                 </label>
                 <div class="button-submit-wrap">
                     <button class="button-modal-submit" type="submit">Send
