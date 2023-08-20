@@ -788,6 +788,9 @@ fill: var(--white);
     font-weight: 500;
     color: var(--text-color);
     margin-bottom: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+
    
 }
 
@@ -1029,6 +1032,10 @@ gap: 24px;
         letter-spacing: 0.48px;
 }
 
+.modal-div {
+    margin-bottom: 8px;
+    
+}
 
 
 
