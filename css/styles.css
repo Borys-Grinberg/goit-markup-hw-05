@@ -981,6 +981,10 @@ border-color: var(--hover-color);
 
 }
 
+.checkbox-label {
+    display: block;
+}
+
 .checkbox-features:checked + .own-checkbox {
 background-color: var(--hover-color);
 fill: var(--button-background);
