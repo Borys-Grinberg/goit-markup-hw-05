@@ -895,13 +895,12 @@ fill: var(--white);
         letter-spacing: 0.64px;
         color: var(--white);
         background-color: var(--logo-blue);
-        border-color: var(--logo-blue);
+    border: none;
         padding: 16px 32px;
         border-radius: 4px;
         box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-        border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-        min-width: 169px;
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
         height: 56px;
         margin-top: 24px;
         margin-left: auto;
@@ -944,7 +943,7 @@ border-color: var(--hover-color);
 
 .privacy-policy-link {
     color: var(--logo-blue);
-    
+
 }
 /*
 .own-checkbox {
@@ -992,7 +991,7 @@ background-color: var(--hover-color);
 fill: var(--button-background);
 }
 */
-.checkbox-features:checked .checkbox-span {
+.checkbox-features:checked + .checkbox-span {
 background-color: var(--hover-color);
 border: none;
 fill: var(--button-background);
