@@ -944,6 +944,7 @@ border-color: var(--hover-color);
 
 .privacy-policy-link {
     color: var(--logo-blue);
+    
 }
 /*
 .own-checkbox {
@@ -983,11 +984,19 @@ border-color: var(--hover-color);
 
 /*.checkbox-label {
     display: block;
-}*/
-
+}
+*/
+/*
 .checkbox-features:checked + .own-checkbox {
 background-color: var(--hover-color);
 fill: var(--button-background);
+}
+*/
+.checkbox-features:checked .checkbox-span {
+background-color: var(--hover-color);
+border: none;
+fill: var(--button-background);
+
 }
 
 .footer-form {
