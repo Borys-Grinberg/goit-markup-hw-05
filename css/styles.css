@@ -886,7 +886,7 @@ fill: var(--white);
 
 .button-modal-submit {
     display:block;
-
+min-width: 169px;
         font-size: 16px;
         text-align: center;
 
