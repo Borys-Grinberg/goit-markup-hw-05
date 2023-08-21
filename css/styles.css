@@ -820,7 +820,7 @@ fill: var(--white);
     letter-spacing: 0.04em;
     color: var(--border-icon);
     margin-bottom: 4px;
-    
+
 }
 
 .modal-form-input {
@@ -1043,6 +1043,10 @@ gap: 24px;
 .modal-div {
     margin-bottom: 8px;
 
+}
+
+.form-field-div {
+    position: relative;
 }
 
 
