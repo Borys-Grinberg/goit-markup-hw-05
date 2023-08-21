@@ -945,14 +945,14 @@ border-color: var(--hover-color);
     color: var(--logo-blue);
 
 }
-
+/*
 .own-checkbox {
   border-radius: 2px;
     border: 1px solid rgba(46, 47, 66, 0.40);
     padding: 4px 3px;
    fill: transparent;
    margin-right: 8px;
-}
+}*/
 
 .checkbox-div {
     margin-bottom: 24px;
@@ -991,7 +991,7 @@ background-color: var(--hover-color);
 fill: var(--button-background);
 }
 */
-.checkbox-features:checked ~ .checkbox-span {
+.checkbox-features:checked .checkbox-span {
 background-color: var(--hover-color);
 border: none;
 fill: var(--button-background);
