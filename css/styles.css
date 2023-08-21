@@ -991,7 +991,7 @@ background-color: var(--hover-color);
 fill: var(--button-background);
 }
 */
-.checkbox-features:checked + .checkbox-span {
+.checkbox-features:checked .checkbox-span {
 background-color: var(--hover-color);
 border: none;
 fill: var(--button-background);
