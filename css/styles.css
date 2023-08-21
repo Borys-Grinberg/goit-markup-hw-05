@@ -866,9 +866,14 @@ fill: var(--white);
     border-radius: 4px;
     resize: none;
     padding: 8px 16px;
-    font-size: 18px;
-    color: var(--text-color);
+    font-size: 12px;
+    
     margin-bottom: 16px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: rgba(46, 47, 66, 0.4);
+
+    
 }
 
 .modal-form-textarea::placeholder {
