@@ -905,7 +905,7 @@ min-width: 169px;
         margin-top: 24px;
         margin-left: auto;
         margin-right: auto;
-        margin-bottom: 24px;
+    
 
 }
 
@@ -1003,7 +1003,6 @@ fill: var(--button-background);
 display:flex;
 flex-direction: row;
 align-items: end;
-gap: 24px;
 }
 
 .footer-form-label {
@@ -1091,6 +1090,7 @@ gap: 24px;
 
 .footer-form-wrapper {
     margin-left: 80px;
+    margin-left: auto;
 }
 
 .textarea-div {
